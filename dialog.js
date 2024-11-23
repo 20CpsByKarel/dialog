@@ -42,9 +42,9 @@ function showAgeVerification() {
 	document.getElementById('ageVerificationNo').onclick = function () {
 		let newUrl;
 		if (language === 'tl') {
-			newUrl = "https://www.pinoys.eu/";
-		} else if (language === 'en') {
 			newUrl = "https://www.pinoys.eu/tl/";
+		} else if (language === 'en') {
+			newUrl = "https://www.pinoys.eu/en/";
 		} else {
 			newUrl = "https://www.pinoys.cz/";
 		}
